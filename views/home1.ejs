@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conditional Login</title>
+</head>
+<body>
+  <h1>Welcome to the Site</h1>
+
+  <% if (isLoggedIn) { %>
+    <form action="/logout" method="POST">
+      <button type="submit">Logout</button>
+    </form>
+  <% } else { %>
+    <form action="/login" method="GET">
+      <button type="submit">Login</button>
+    </form>
+  <% } %>
+
+</body>
+</html>

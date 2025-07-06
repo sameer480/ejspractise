@@ -5,7 +5,7 @@
   "main": ".vscode/app.js",
   "scripts": {
     "start": "node .vscode/app.js",
-    "dev": "nodemon .vscode/app.js",
+    "dev": "nodemon .vscode/user.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
