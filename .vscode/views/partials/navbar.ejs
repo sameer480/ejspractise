@@ -1,0 +1,13 @@
+<nav>
+  <ul style="list-style: none; display: flex; gap: 20px;">
+    <li>
+      <a href="/" <%= activePage === 'home' ? 'style="font-weight:bold;"' : '' %>>Home</a>
+    </li>
+    <li>
+      <a href="/about" <%= activePage === 'about' ? 'style="font-weight:bold;"' : '' %>>About</a>
+    </li>
+    <li>
+      <a href="/contact" <%= activePage === 'contact' ? 'style="font-weight:bold;"' : '' %>>Contact</a>
+    </li>
+  </ul>
+</nav>
