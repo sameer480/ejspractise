@@ -2,9 +2,10 @@
   "name": "ejs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": ".vscode/app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node .vscode/app.js",
+    "dev": "nodemon .vscode/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
